@@ -6,7 +6,7 @@ use yii\web\Controller;
 
 class DefaultController extends Controller
 {
-	public $layout = "admin";
+	#public $layout = "admin";
 	//$this->layout = (Yii::app()->user->name == 'admin') ? '//layouts/column2' : '//layouts/column1';
 	public function actionIndex()
     {
